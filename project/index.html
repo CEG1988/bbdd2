@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Tienda</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <h1>Bienvenido a Mi Tienda</h1>
+    <h2>Productos Disponibles</h2>
+    <ul>
+        {% for producto in productos %}
+        <li>
+            <strong>{{ producto.nombre }}</strong><br>
+            {{ producto.descripcion }}<br>
+            Precio: ${{ producto.precio }} - Cantidad: {{ producto.cantidad }}
+        </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

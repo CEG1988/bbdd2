@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+h1, h2 {
+    color: #333;
+}
+.button-container {
+    margin-top: 20px;
+}
+.button-container button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    background-color: #f0f0f0;
+}
+.results {
+    margin-top: 30px;
+}
+.results ul {
+    list-style-type: none;
+    padding: 0;
+}
+.results li {
+    background-color: #f9f9f9;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
